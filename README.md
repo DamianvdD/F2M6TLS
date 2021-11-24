@@ -1,9 +1,9 @@
-#F2M6TLS
+# F2M6TLS
 
-##Namen:
+## Namen:
 Damian van der Dennen & Finn Mulder
 
-##Project:
+## Project:
 Dit project is om te laten zien dat we met Wordpress kunnen werken.
 
-##Live Versie:
+## Live Versie:
