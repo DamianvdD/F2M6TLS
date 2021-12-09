@@ -1,0 +1,9 @@
+body {
+    background-color: white;
+    color: black;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
