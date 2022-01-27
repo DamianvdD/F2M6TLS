@@ -1,0 +1,23 @@
+$text-color: #FF0000;
+$bg-color: #ffffff;
+$text-size: 12px;
+
+body {
+    color: $text-color;
+    background-color: $bg-color;
+    font-size: $text-size;
+}
+
+
+ul{
+    background-color: $bg-color;
+
+    li{
+        color:red;
+        padding: 10px;
+
+        a, a:hover{
+            color:#0b0b0b;
+        }
+    }
+}
