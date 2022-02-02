@@ -15,8 +15,8 @@
 <body <?php body_class(); ?>>
 <div class="container">
 
-
-    <header>
+    <header style="background-image: url(<?php echo get_header_image()?>);">
+        <div id="site-info">
         <img src="<?php echo get_template_directory_uri()?>img/logo.png"/>
         <h1><?php echo get_bloginfo('name')?></h1>
 
