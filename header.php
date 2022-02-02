@@ -17,15 +17,16 @@
 
     <header style="background-image: url(<?php echo get_header_image()?>);">
         <div id="site-info">
-        <img src="<?php echo get_template_directory_uri()?>img/logo.png"/>
+        <img class="HeaderImage" src="<?php echo get_template_directory_uri()?>/img/stedelijk.png"/>
         <h1><?php echo get_bloginfo('name')?></h1>
 
 
     <main-menu>
      <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
- </main-menu>
+    </main-menu>
     </header>
 
+</div>
 </body>
 
 

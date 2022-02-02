@@ -10,7 +10,7 @@ if ( have_posts() ) :
         <?php endif ?>
         <h2><?php the_title() ?></h2>
         <?php the_content() ?>
-        <a href="<?php the_permalink()?>">Lees Meer</a>
+        <a href="<?php the_permalink()?>"><button class="btn btn1">Reserveer Hier!</button></a>
         <hr>
 
     <?php endwhile;
