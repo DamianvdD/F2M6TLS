@@ -19,12 +19,15 @@
         <div id="site-info">
         <img class="HeaderImage" src="<?php echo get_template_directory_uri()?>/img/stedelijk.png"/>
         <h1><?php echo get_bloginfo('name')?></h1>
+        </div>
 
 
     <main-menu>
      <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
     </main-menu>
     </header>
+
+
 
 </div>
 </body>
