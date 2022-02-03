@@ -94,5 +94,9 @@ article {
 onderMenu, .ONLINE, .actueleTen, .boekTicket {
     font-size: large;
     font-family: Helvetica;
+    color: black;
+}
+onderMenu, a:hover {
+    color: black;
 }
 

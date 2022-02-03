@@ -51,14 +51,14 @@ endif;
     </div>
     </div>
 <div class="onderMenu">
-    <div class="Online">
-    <h1>ONLINE →</h1>
+    <div class="Online" class="active">
+        <a href=""><h1>ONLINE →</h1></a>
     </div>
-    <div class="actueleTen">
-        <h1>ACTUELE TENTOONSTELLING →</h1>
+    <div class="actueleTen" class="active">
+        <a href=""><h1>ACTUELE TENTOONSTELLING →</h1></a>
     </div>
     <div class="boekTicket">
-        <h1>BOEK TICKET →</h1>
+        <a href="" class="active"><h1>BOEK TICKET →</h1></a>
     </div>
 </div>
 
