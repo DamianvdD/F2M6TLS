@@ -8,7 +8,7 @@ if ( have_posts() ) :
        <article>
            <h2><?php the_title() ?></h2>
         <?php the_content() ?>
-        <a href="<?php the_permalink()?>"><button class="btn btn1">Reserveer Hier!</button></a>
+        <a href="/f2m6tls/wordpress/shop"><button class="btn btn1">Reserveer Hier!</button></a>
            <br>
            <br>
        </article>
@@ -26,17 +26,17 @@ endif;
     <bold><h2>Openings Tijden</h2></bold>
     Dagelijks: 10.00 - 17.00 uur<br>
 
-    Openingstijden feestdagen<br>
+    Openingstijden Feestdagen<br>
 
-    -Vrijdag 24 december: 10.00 - 17.00 uur<br>
+    - Vrijdag 24 december: 10.00 - 17.00 uur<br>
 
-    -Zaterdag 25 december: 11.00 - 17.00 uur<br>
+    - Zaterdag 25 december: 11.00 - 17.00 uur<br>
 
-    -Zondag 26 december: 10.00 - 17.00 uur<br>
+    - Zondag 26 december: 10.00 - 17.00 uur<br>
 
-    -oudjaarsdag: 10.00 - 17.00 uur<br>
+    - oudjaarsdag: 10.00 - 17.00 uur<br>
 
-    -nieuwjaarsdag: 11.00 - 17.00 uur<br>
+    - nieuwjaarsdag: 11.00 - 17.00 uur<br>
 </div>
 <?php
 get_footer();
