@@ -6,14 +6,15 @@ body {
 
 }
 
-main-menu{
+main-menu {
     margin: 0px;
     padding: 0;
     display: flex;
     list-style: none;
     justify-content: left;
+
 }
-main-menu li{
+main-menu li {
     padding: 10px;
     display: inline-block;
     background-color: #FFFFFF;
@@ -46,7 +47,7 @@ main-menu .current-menu-item a, #main-menu .current-menu-item a:hover {
     overflow: hidden;
 }
 
-.btn1,.btn2{
+.btn1,.btn2 {
     color: black;
 }
 .btn1:hover,.btn2:hover {
@@ -64,22 +65,13 @@ main-menu .current-menu-item a, #main-menu .current-menu-item a:hover {
     transition: 0.8s;
 }
 
-.btn1::before,.btn3::before{
+.btn1::before,.btn3::before {
     top: 0;
     border-radius: 0 0 50% 50%;
 }
-.btn1:hover::before,.btn2:hover::before{
+.btn1:hover::before,.btn2:hover::before {
     height: 180%;
 }
-
-HeaderImage {
-    font-family: Helvetica;
-    width: 100%;
-    height: 100px;
-    position: fixed;
-}
-
-
 
 .OpeningsTijd {
     font-size: large;
@@ -93,11 +85,9 @@ HeaderImage {
 }
 
 div {
-
     border-bottom: 4px solid black;
 }
 article {
-
     border-bottom: 4px solid black;
 }
 

@@ -13,25 +13,16 @@
     <?php wp_head() ?>
 </head>
 <body <?php body_class(); ?>>
-<img class="HeaderImage" src="<?php echo get_template_directory_uri()?>/img/1557417206664.jpg"/>
+<img class="HeaderImage" src="<?php echo get_template_directory_uri()?>/img/frontheader2.png"/>
 <header style="background-image: url(<?php echo get_header_image()?>);">
     <div id="site-info">
         <h1><?php echo get_bloginfo('name')?></h1>
     </div>
 
-
-
-
-
-
-
     <main-menu>
      <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
     </main-menu>
-    </header>
-
-
-
+</header>
 </div>
 </body>
 
