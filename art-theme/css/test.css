@@ -1,0 +1,18 @@
+body {
+  color: #FF0000;
+  background-color: #ffffff;
+  font-size: 12px;
+}
+
+ul {
+  background-color: #ffffff;
+}
+ul li {
+  color: red;
+  padding: 10px;
+}
+ul li a, ul li a:hover {
+  color: blue;
+}
+
+/*# sourceMappingURL=test.css.map */
