@@ -5,12 +5,10 @@ get_header();
 
 if ( have_posts() ) :
     while ( have_posts() ) : the_post(); ?>
-        <?php if(has_post_thumbnail()):?>
-            <img src="<?php echo get_the_post_thumbnail();?>" />
-        <?php endif ?>
+
         <h2><?php the_title() ?></h2>
         <?php the_content() ?>
-        <a href="/shop"><button class="btn btn1">Reserveer Hier!</button></a>
+        <a href=""><button class="btn btn1">Reserveer Hier!</button></a>
         <hr>
 
     <?php endwhile;

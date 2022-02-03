@@ -13,13 +13,16 @@
     <?php wp_head() ?>
 </head>
 <body <?php body_class(); ?>>
-<div class="container">
-
-    <header style="background-image: url(<?php echo get_header_image()?>);">
-        <div id="site-info">
-        <img class="HeaderImage" src="<?php echo get_template_directory_uri()?>/img/stedelijk.png"/>
+<img class="HeaderImage" src="<?php echo get_template_directory_uri()?>/img/1557417206664.jpg"/>
+<header style="background-image: url(<?php echo get_header_image()?>);">
+    <div id="site-info">
         <h1><?php echo get_bloginfo('name')?></h1>
-        </div>
+    </div>
+
+
+
+
+
 
 
     <main-menu>

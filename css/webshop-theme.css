@@ -3,6 +3,7 @@ body {
     font-family: 'Helvetica', sans-serif;
     background-color: #FFFFFF;
     color: #333333;
+
 }
 
 main-menu{
@@ -71,13 +72,37 @@ main-menu .current-menu-item a, #main-menu .current-menu-item a:hover {
     height: 180%;
 }
 
-.HeaderImage {
-    justify-content: center;
-
+HeaderImage {
+    font-family: Helvetica;
+    width: 100%;
+    height: 100px;
+    position: fixed;
 }
+
+
 
 .OpeningsTijd {
-    font-size: 15px;
+    font-size: large;
+    font-family: Helvetica;
 }
 
+.Info {
+    font-size: large;
+    font-family: Helvetica;
+    text-align: center;
+}
+
+div {
+
+    border-bottom: 4px solid black;
+}
+article {
+
+    border-bottom: 4px solid black;
+}
+
+onderMenu, .ONLINE, .actueleTen, .boekTicket {
+    font-size: large;
+    font-family: Helvetica;
+}
 
